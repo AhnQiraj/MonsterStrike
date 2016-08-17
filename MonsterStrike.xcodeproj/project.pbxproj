@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DAEA5391D641B7A00B78B33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA5381D641B7A00B78B33 /* main.m */; };
+		9DAEA53C1D641B7A00B78B33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA53B1D641B7A00B78B33 /* AppDelegate.m */; };
+		9DAEA53F1D641B7A00B78B33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA53E1D641B7A00B78B33 /* ViewController.m */; };
+		9DAEA5421D641B7A00B78B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAEA5401D641B7A00B78B33 /* Main.storyboard */; };
+		9DAEA5441D641B7A00B78B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAEA5431D641B7A00B78B33 /* Assets.xcassets */; };
+		9DAEA5471D641B7A00B78B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAEA5451D641B7A00B78B33 /* LaunchScreen.storyboard */; };
+		9DAEA5521D641B7B00B78B33 /* MonsterStrikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA5511D641B7B00B78B33 /* MonsterStrikeTests.m */; };
+		9DAEA55D1D641B7B00B78B33 /* MonsterStrikeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA55C1D641B7B00B78B33 /* MonsterStrikeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DAEA54E1D641B7B00B78B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DAEA52C1D641B7A00B78B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAEA5331D641B7A00B78B33;
+			remoteInfo = MonsterStrike;
+		};
+		9DAEA5591D641B7B00B78B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DAEA52C1D641B7A00B78B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAEA5331D641B7A00B78B33;
+			remoteInfo = MonsterStrike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DAEA5341D641B7A00B78B33 /* MonsterStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAEA5381D641B7A00B78B33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DAEA53A1D641B7A00B78B33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DAEA53B1D641B7A00B78B33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DAEA53D1D641B7A00B78B33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DAEA53E1D641B7A00B78B33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DAEA5411D641B7A00B78B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DAEA5431D641B7A00B78B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DAEA5461D641B7A00B78B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DAEA5481D641B7A00B78B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAEA54D1D641B7B00B78B33 /* MonsterStrikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterStrikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAEA5511D641B7B00B78B33 /* MonsterStrikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterStrikeTests.m; sourceTree = "<group>"; };
+		9DAEA5531D641B7B00B78B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAEA5581D641B7B00B78B33 /* MonsterStrikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterStrikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAEA55C1D641B7B00B78B33 /* MonsterStrikeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterStrikeUITests.m; sourceTree = "<group>"; };
+		9DAEA55E1D641B7B00B78B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DAEA5311D641B7A00B78B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAEA54A1D641B7B00B78B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAEA5551D641B7B00B78B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DAEA52B1D641B7A00B78B33 = {
+			isa = PBXGroup;
+			children = (
+				9DAEA5361D641B7A00B78B33 /* MonsterStrike */,
+				9DAEA5501D641B7B00B78B33 /* MonsterStrikeTests */,
+				9DAEA55B1D641B7B00B78B33 /* MonsterStrikeUITests */,
+				9DAEA5351D641B7A00B78B33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAEA5351D641B7A00B78B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAEA5341D641B7A00B78B33 /* MonsterStrike.app */,
+				9DAEA54D1D641B7B00B78B33 /* MonsterStrikeTests.xctest */,
+				9DAEA5581D641B7B00B78B33 /* MonsterStrikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DAEA5361D641B7A00B78B33 /* MonsterStrike */ = {
+			isa = PBXGroup;
+			children = (
+				9DAEA53A1D641B7A00B78B33 /* AppDelegate.h */,
+				9DAEA53B1D641B7A00B78B33 /* AppDelegate.m */,
+				9DAEA53D1D641B7A00B78B33 /* ViewController.h */,
+				9DAEA53E1D641B7A00B78B33 /* ViewController.m */,
+				9DAEA5401D641B7A00B78B33 /* Main.storyboard */,
+				9DAEA5431D641B7A00B78B33 /* Assets.xcassets */,
+				9DAEA5451D641B7A00B78B33 /* LaunchScreen.storyboard */,
+				9DAEA5481D641B7A00B78B33 /* Info.plist */,
+				9DAEA5371D641B7A00B78B33 /* Supporting Files */,
+			);
+			path = MonsterStrike;
+			sourceTree = "<group>";
+		};
+		9DAEA5371D641B7A00B78B33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAEA5381D641B7A00B78B33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DAEA5501D641B7B00B78B33 /* MonsterStrikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DAEA5511D641B7B00B78B33 /* MonsterStrikeTests.m */,
+				9DAEA5531D641B7B00B78B33 /* Info.plist */,
+			);
+			path = MonsterStrikeTests;
+			sourceTree = "<group>";
+		};
+		9DAEA55B1D641B7B00B78B33 /* MonsterStrikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DAEA55C1D641B7B00B78B33 /* MonsterStrikeUITests.m */,
+				9DAEA55E1D641B7B00B78B33 /* Info.plist */,
+			);
+			path = MonsterStrikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAEA5331D641B7A00B78B33 /* MonsterStrike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAEA5611D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrike" */;
+			buildPhases = (
+				9DAEA5301D641B7A00B78B33 /* Sources */,
+				9DAEA5311D641B7A00B78B33 /* Frameworks */,
+				9DAEA5321D641B7A00B78B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterStrike;
+			productName = MonsterStrike;
+			productReference = 9DAEA5341D641B7A00B78B33 /* MonsterStrike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DAEA54C1D641B7B00B78B33 /* MonsterStrikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAEA5641D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeTests" */;
+			buildPhases = (
+				9DAEA5491D641B7B00B78B33 /* Sources */,
+				9DAEA54A1D641B7B00B78B33 /* Frameworks */,
+				9DAEA54B1D641B7B00B78B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DAEA54F1D641B7B00B78B33 /* PBXTargetDependency */,
+			);
+			name = MonsterStrikeTests;
+			productName = MonsterStrikeTests;
+			productReference = 9DAEA54D1D641B7B00B78B33 /* MonsterStrikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DAEA5571D641B7B00B78B33 /* MonsterStrikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAEA5671D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeUITests" */;
+			buildPhases = (
+				9DAEA5541D641B7B00B78B33 /* Sources */,
+				9DAEA5551D641B7B00B78B33 /* Frameworks */,
+				9DAEA5561D641B7B00B78B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DAEA55A1D641B7B00B78B33 /* PBXTargetDependency */,
+			);
+			name = MonsterStrikeUITests;
+			productName = MonsterStrikeUITests;
+			productReference = 9DAEA5581D641B7B00B78B33 /* MonsterStrikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DAEA52C1D641B7A00B78B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AhnQiraj;
+				TargetAttributes = {
+					9DAEA5331D641B7A00B78B33 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9DAEA54C1D641B7B00B78B33 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9DAEA5331D641B7A00B78B33;
+					};
+					9DAEA5571D641B7B00B78B33 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9DAEA5331D641B7A00B78B33;
+					};
+				};
+			};
+			buildConfigurationList = 9DAEA52F1D641B7A00B78B33 /* Build configuration list for PBXProject "MonsterStrike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DAEA52B1D641B7A00B78B33;
+			productRefGroup = 9DAEA5351D641B7A00B78B33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAEA5331D641B7A00B78B33 /* MonsterStrike */,
+				9DAEA54C1D641B7B00B78B33 /* MonsterStrikeTests */,
+				9DAEA5571D641B7B00B78B33 /* MonsterStrikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DAEA5321D641B7A00B78B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAEA5471D641B7A00B78B33 /* LaunchScreen.storyboard in Resources */,
+				9DAEA5441D641B7A00B78B33 /* Assets.xcassets in Resources */,
+				9DAEA5421D641B7A00B78B33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAEA54B1D641B7B00B78B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAEA5561D641B7B00B78B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DAEA5301D641B7A00B78B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAEA53F1D641B7A00B78B33 /* ViewController.m in Sources */,
+				9DAEA53C1D641B7A00B78B33 /* AppDelegate.m in Sources */,
+				9DAEA5391D641B7A00B78B33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAEA5491D641B7B00B78B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAEA5521D641B7B00B78B33 /* MonsterStrikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAEA5541D641B7B00B78B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAEA55D1D641B7B00B78B33 /* MonsterStrikeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DAEA54F1D641B7B00B78B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DAEA5331D641B7A00B78B33 /* MonsterStrike */;
+			targetProxy = 9DAEA54E1D641B7B00B78B33 /* PBXContainerItemProxy */;
+		};
+		9DAEA55A1D641B7B00B78B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DAEA5331D641B7A00B78B33 /* MonsterStrike */;
+			targetProxy = 9DAEA5591D641B7B00B78B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DAEA5401D641B7A00B78B33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAEA5411D641B7A00B78B33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DAEA5451D641B7A00B78B33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAEA5461D641B7A00B78B33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DAEA55F1D641B7B00B78B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DAEA5601D641B7B00B78B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DAEA5621D641B7B00B78B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonsterStrike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahnqiraj.MonsterStrike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DAEA5631D641B7B00B78B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonsterStrike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahnqiraj.MonsterStrike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DAEA5651D641B7B00B78B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MonsterStrikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahnqiraj.MonsterStrikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterStrike.app/MonsterStrike";
+			};
+			name = Debug;
+		};
+		9DAEA5661D641B7B00B78B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MonsterStrikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahnqiraj.MonsterStrikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterStrike.app/MonsterStrike";
+			};
+			name = Release;
+		};
+		9DAEA5681D641B7B00B78B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MonsterStrikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahnqiraj.MonsterStrikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MonsterStrike;
+			};
+			name = Debug;
+		};
+		9DAEA5691D641B7B00B78B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MonsterStrikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahnqiraj.MonsterStrikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MonsterStrike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DAEA52F1D641B7A00B78B33 /* Build configuration list for PBXProject "MonsterStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAEA55F1D641B7B00B78B33 /* Debug */,
+				9DAEA5601D641B7B00B78B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAEA5611D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAEA5621D641B7B00B78B33 /* Debug */,
+				9DAEA5631D641B7B00B78B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DAEA5641D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAEA5651D641B7B00B78B33 /* Debug */,
+				9DAEA5661D641B7B00B78B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DAEA5671D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAEA5681D641B7B00B78B33 /* Debug */,
+				9DAEA5691D641B7B00B78B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DAEA52C1D641B7A00B78B33 /* Project object */;
+}
