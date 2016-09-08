@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36C79B951D816251001DBCF5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C79B941D816251001DBCF5 /* UserModel.m */; };
+		6B8498A5F7D679E3EE19414A /* libPods-MonsterStrikeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3624105FA1CBB25B5B8EB0A /* libPods-MonsterStrikeUITests.a */; };
 		9DAEA5391D641B7A00B78B33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA5381D641B7A00B78B33 /* main.m */; };
 		9DAEA53C1D641B7A00B78B33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA53B1D641B7A00B78B33 /* AppDelegate.m */; };
 		9DAEA53F1D641B7A00B78B33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA53E1D641B7A00B78B33 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		9DAEA5471D641B7A00B78B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAEA5451D641B7A00B78B33 /* LaunchScreen.storyboard */; };
 		9DAEA5521D641B7B00B78B33 /* MonsterStrikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA5511D641B7B00B78B33 /* MonsterStrikeTests.m */; };
 		9DAEA55D1D641B7B00B78B33 /* MonsterStrikeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEA55C1D641B7B00B78B33 /* MonsterStrikeUITests.m */; };
+		BC3E6A235F9D445E85C28718 /* libPods-MonsterStrike.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2D685B47B4B1FB04674C71 /* libPods-MonsterStrike.a */; };
+		C4AC0ACCDAF0C20DACD058DB /* libPods-MonsterStrikeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F657E9FB9EC7E0A22D37BBF /* libPods-MonsterStrikeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078BB463577A6204F5F97DB2 /* Pods-MonsterStrikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterStrikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterStrikeTests/Pods-MonsterStrikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F47D4DB916D5EBFB4B4D62D /* Pods-MonsterStrikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterStrikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterStrikeUITests/Pods-MonsterStrikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		311F6E9E4D2FA98C19908806 /* Pods-MonsterStrikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterStrikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterStrikeUITests/Pods-MonsterStrikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36C79B931D816251001DBCF5 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		36C79B941D816251001DBCF5 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		3F657E9FB9EC7E0A22D37BBF /* libPods-MonsterStrikeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonsterStrikeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2D685B47B4B1FB04674C71 /* libPods-MonsterStrike.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonsterStrike.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAEA5341D641B7A00B78B33 /* MonsterStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAEA5381D641B7A00B78B33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DAEA53A1D641B7A00B78B33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		9DAEA5581D641B7B00B78B33 /* MonsterStrikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterStrikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAEA55C1D641B7B00B78B33 /* MonsterStrikeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterStrikeUITests.m; sourceTree = "<group>"; };
 		9DAEA55E1D641B7B00B78B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE6F26CAD8ED95EAFB0F4A7 /* Pods-MonsterStrike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterStrike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterStrike/Pods-MonsterStrike.debug.xcconfig"; sourceTree = "<group>"; };
+		BA277B90FC98FAED4CAD58C4 /* Pods-MonsterStrike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterStrike.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterStrike/Pods-MonsterStrike.release.xcconfig"; sourceTree = "<group>"; };
+		E3624105FA1CBB25B5B8EB0A /* libPods-MonsterStrikeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonsterStrikeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ECE703E33DA947FE5D5786 /* Pods-MonsterStrikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonsterStrikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonsterStrikeTests/Pods-MonsterStrikeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3E6A235F9D445E85C28718 /* libPods-MonsterStrike.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AC0ACCDAF0C20DACD058DB /* libPods-MonsterStrikeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8498A5F7D679E3EE19414A /* libPods-MonsterStrikeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91ED635C1FC8B745483C2713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FE6F26CAD8ED95EAFB0F4A7 /* Pods-MonsterStrike.debug.xcconfig */,
+				BA277B90FC98FAED4CAD58C4 /* Pods-MonsterStrike.release.xcconfig */,
+				F9ECE703E33DA947FE5D5786 /* Pods-MonsterStrikeTests.debug.xcconfig */,
+				078BB463577A6204F5F97DB2 /* Pods-MonsterStrikeTests.release.xcconfig */,
+				0F47D4DB916D5EBFB4B4D62D /* Pods-MonsterStrikeUITests.debug.xcconfig */,
+				311F6E9E4D2FA98C19908806 /* Pods-MonsterStrikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9DAEA52B1D641B7A00B78B33 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				9DAEA5501D641B7B00B78B33 /* MonsterStrikeTests */,
 				9DAEA55B1D641B7B00B78B33 /* MonsterStrikeUITests */,
 				9DAEA5351D641B7A00B78B33 /* Products */,
+				91ED635C1FC8B745483C2713 /* Pods */,
+				CEA5A7455194B45879BECC94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +143,8 @@
 				9DAEA5451D641B7A00B78B33 /* LaunchScreen.storyboard */,
 				9DAEA5481D641B7A00B78B33 /* Info.plist */,
 				9DAEA5371D641B7A00B78B33 /* Supporting Files */,
+				36C79B931D816251001DBCF5 /* UserModel.h */,
+				36C79B941D816251001DBCF5 /* UserModel.m */,
 			);
 			path = MonsterStrike;
 			sourceTree = "<group>";
@@ -140,6 +175,16 @@
 			path = MonsterStrikeUITests;
 			sourceTree = "<group>";
 		};
+		CEA5A7455194B45879BECC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D685B47B4B1FB04674C71 /* libPods-MonsterStrike.a */,
+				3F657E9FB9EC7E0A22D37BBF /* libPods-MonsterStrikeTests.a */,
+				E3624105FA1CBB25B5B8EB0A /* libPods-MonsterStrikeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DAEA5611D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrike" */;
 			buildPhases = (
+				85784B496F3B2BCEF9E42400 /* [CP] Check Pods Manifest.lock */,
 				9DAEA5301D641B7A00B78B33 /* Sources */,
 				9DAEA5311D641B7A00B78B33 /* Frameworks */,
 				9DAEA5321D641B7A00B78B33 /* Resources */,
+				ACD6D4898DBAEB941422695B /* [CP] Embed Pods Frameworks */,
+				C1677EED21CBA15EC852690A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DAEA5641D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeTests" */;
 			buildPhases = (
+				4716E2E3C797D1BBBA7C90DC /* [CP] Check Pods Manifest.lock */,
 				9DAEA5491D641B7B00B78B33 /* Sources */,
 				9DAEA54A1D641B7B00B78B33 /* Frameworks */,
 				9DAEA54B1D641B7B00B78B33 /* Resources */,
+				67C243AB3FE38CC04640C20A /* [CP] Embed Pods Frameworks */,
+				49DAE2C6923A84FCC1558CEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DAEA5671D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeUITests" */;
 			buildPhases = (
+				E84EC7F1540D0F11AB848A8B /* [CP] Check Pods Manifest.lock */,
 				9DAEA5541D641B7B00B78B33 /* Sources */,
 				9DAEA5551D641B7B00B78B33 /* Frameworks */,
 				9DAEA5561D641B7B00B78B33 /* Resources */,
+				0CB9D915BD6E61C6E1D5DDA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +318,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CB9D915BD6E61C6E1D5DDA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterStrikeUITests/Pods-MonsterStrikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4716E2E3C797D1BBBA7C90DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49DAE2C6923A84FCC1558CEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterStrikeTests/Pods-MonsterStrikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C243AB3FE38CC04640C20A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterStrikeTests/Pods-MonsterStrikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85784B496F3B2BCEF9E42400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD6D4898DBAEB941422695B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterStrike/Pods-MonsterStrike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1677EED21CBA15EC852690A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonsterStrike/Pods-MonsterStrike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84EC7F1540D0F11AB848A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DAEA5301D641B7A00B78B33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +448,7 @@
 			files = (
 				9DAEA53F1D641B7A00B78B33 /* ViewController.m in Sources */,
 				9DAEA53C1D641B7A00B78B33 /* AppDelegate.m in Sources */,
+				36C79B951D816251001DBCF5 /* UserModel.m in Sources */,
 				9DAEA5391D641B7A00B78B33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +588,7 @@
 		};
 		9DAEA5621D641B7B00B78B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE6F26CAD8ED95EAFB0F4A7 /* Pods-MonsterStrike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MonsterStrike/Info.plist;
@@ -422,6 +600,7 @@
 		};
 		9DAEA5631D641B7B00B78B33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA277B90FC98FAED4CAD58C4 /* Pods-MonsterStrike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MonsterStrike/Info.plist;
@@ -433,6 +612,7 @@
 		};
 		9DAEA5651D641B7B00B78B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9ECE703E33DA947FE5D5786 /* Pods-MonsterStrikeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MonsterStrikeTests/Info.plist;
@@ -445,6 +625,7 @@
 		};
 		9DAEA5661D641B7B00B78B33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078BB463577A6204F5F97DB2 /* Pods-MonsterStrikeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MonsterStrikeTests/Info.plist;
@@ -457,6 +638,7 @@
 		};
 		9DAEA5681D641B7B00B78B33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F47D4DB916D5EBFB4B4D62D /* Pods-MonsterStrikeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MonsterStrikeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +650,7 @@
 		};
 		9DAEA5691D641B7B00B78B33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311F6E9E4D2FA98C19908806 /* Pods-MonsterStrikeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MonsterStrikeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +679,7 @@
 				9DAEA5631D641B7B00B78B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DAEA5641D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +688,7 @@
 				9DAEA5661D641B7B00B78B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DAEA5671D641B7B00B78B33 /* Build configuration list for PBXNativeTarget "MonsterStrikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +697,7 @@
 				9DAEA5691D641B7B00B78B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
